@@ -1,0 +1,5 @@
+petclinic:
+    display: 
+        owners: 
+            with:
+              pets: true
