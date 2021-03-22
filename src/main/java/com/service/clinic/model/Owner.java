@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class Owner {
 
-    //Owner Domain Sınıfı
+    //Owner Domain
 
     private Long id;
 
