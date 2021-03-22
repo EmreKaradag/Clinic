@@ -3,3 +3,12 @@ petclinic:
         owners: 
             with:
               pets: true
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.hibernate: INFO
+  file: debug.log
+
+

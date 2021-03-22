@@ -5,7 +5,10 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Configuration
+@Slf4j
 public class PetClinicConfiguration {
 
     @Value("${petclinic.display.owners.with.pets}")
@@ -13,7 +16,7 @@ public class PetClinicConfiguration {
 
     @PostConstruct
     public void init(){
-        System.out.println("Display owners with pets: " + petclinicDisplayOwnersWithPet);
+        log.info("Display Owners With Pet : {}", petclinicDisplayOwnersWithPet);
     }
     
 }
