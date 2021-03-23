@@ -34,7 +34,7 @@ public class OwnerRepositoryMemoryImpl implements OwnerRepository{
         ownersMap.put(owner.getId(), owner);
         ownersMap.put(owner2.getId(), owner2);
 
-        log.info("Owners Map : {}", ownersMap);
+        log.info("Owners Map: {}", ownersMap);
         
 
     }
